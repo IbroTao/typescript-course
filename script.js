@@ -37,3 +37,12 @@ function returnMyName() {
     return myName;
 }
 console.log(returnMyName());
+// Void
+function sayHello() {
+    console.log("Hello");
+}
+// argument types
+function multiply(value1, value2) {
+    return value1 * value2;
+}
+console.log(multiply(6, 12));
