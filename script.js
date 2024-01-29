@@ -27,3 +27,8 @@ var Color;
 })(Color || (Color = {}));
 let myColor = Color.Black;
 console.log(myColor);
+// Any
+let country = "Nigeria";
+console.log(country);
+country = { name: "Ghana", PN: +233 };
+console.log(country);

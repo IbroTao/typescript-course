@@ -31,3 +31,9 @@ enum Color {
 }
 let myColor: Color = Color.Black;
 console.log(myColor);
+
+// Any
+let country: any = "Nigeria";
+console.log(country);
+country = { name: "Ghana", PN: +233 };
+console.log(country);
