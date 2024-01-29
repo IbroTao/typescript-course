@@ -32,3 +32,8 @@ let country = "Nigeria";
 console.log(country);
 country = { name: "Ghana", PN: +233 };
 console.log(country);
+// Functions and Types
+function returnMyName() {
+    return myName;
+}
+console.log(returnMyName());
