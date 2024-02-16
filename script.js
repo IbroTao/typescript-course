@@ -3,7 +3,7 @@
 let myName = "Tao";
 // myName = 49;
 // Number
-let myAge = 67;
+let myAge = 1;
 // myAge = "Alexia"
 // Boolean
 let hasHobbies = true;
@@ -32,11 +32,6 @@ let country = "Nigeria";
 console.log(country);
 country = { name: "Ghana", PN: +233 };
 console.log(country);
-// Functions and Types
-function returnMyName() {
-    return myName;
-}
-console.log(returnMyName());
 // Void
 function sayHello() {
     console.log("Hello");
@@ -46,3 +41,9 @@ function multiply(value1, value2) {
     return value1 * value2;
 }
 console.log(multiply(6, 12));
+// function types
+function returnMyName() {
+    let name = "Shade";
+    return name;
+}
+console.log(returnMyName());
