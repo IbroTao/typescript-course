@@ -16,7 +16,7 @@ myRealAge = 27;
 //myRealAge = '27';
 
 // Array
-let hobbies: any[] = ["Cooking", "Sports"];
+let hobbies: any[] = ["Cooking", 78, "Sports"];
 hobbies = [1000];
 // hobbies = 1000
 
@@ -49,9 +49,28 @@ function multiply(value1: number, value2: number) {
 }
 console.log(multiply(6, 12));
 
+let myMultiply: (a: number, b: number) => number;
+myMultiply = multiply;
+console.log(myMultiply(5, 6));
+
 // function types
 function returnMyName(): any {
   let name = "Shade";
   return name;
 }
 console.log(returnMyName());
+
+//objects
+let userData: { name: string; age: number } = {
+  name: "Max",
+  age: 87,
+};
+console.log(userData.age);
+
+let complex: { data: number[]; output: (all: boolean) => number[] } = {
+  data: [100, 3.99],
+
+  output: function (all: boolean): number[] {
+    return this.data;
+  },
+};

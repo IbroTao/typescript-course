@@ -13,7 +13,7 @@ let myRealAge;
 myRealAge = 27;
 //myRealAge = '27';
 // Array
-let hobbies = ["Cooking", "Sports"];
+let hobbies = ["Cooking", 78, "Sports"];
 hobbies = [1000];
 // hobbies = 1000
 // Tuples
@@ -41,9 +41,18 @@ function multiply(value1, value2) {
     return value1 * value2;
 }
 console.log(multiply(6, 12));
+let myMultiply;
+myMultiply = multiply;
+console.log(myMultiply(5, 6));
 // function types
 function returnMyName() {
     let name = "Shade";
     return name;
 }
 console.log(returnMyName());
+//objects
+let userData = {
+    name: "Max",
+    age: 87,
+};
+console.log(userData.age);
