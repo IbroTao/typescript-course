@@ -56,3 +56,9 @@ let userData = {
     age: 87,
 };
 console.log(userData.age);
+let complex = {
+    data: [100, 3.99],
+    output: function (all) {
+        return this.data;
+    },
+};
